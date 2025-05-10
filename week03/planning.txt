@@ -2,3 +2,31 @@
 📄 About Us – This page provides an overview, information about its owners and staff, and basic trip summaries.
 📄 Trips – This page provides detailed information and examples of the different adventures or trips that the company offerings including available equipment.
 📄 Contact Us – Provides contact information and a form to obtain user input including questions and comments.
+
+
+REQUIREMENTS
+The course's development standards are met.
+The site is structured with valid, standards-based, semantic markup that is responsive and does not include styling.
+The site is styled and presented with valid, standards-based CSS.
+The site meets this listed functional, content, and behavior specifications.
+The design ensures that the site meets user expectations by providing a positive experience through adhering to standard design principles and utilizing easy-to-use interfaces.
+The published site meets the intent of mastery the course learning outcomes.
+
+
+
+Site plans come in many shapes and sizes and in varying levels of detail. Here is a list of common elements in a site plan.
+
+Statement of purpose and goals
+Definition of the target audience
+Personas and scenarios (who will use the site and how will they use it?)
+A style guide
+Branding Information (how to correctly use the branding for the site)
+Typography choices and justification
+Color palette
+Specific styling of elements on the site (headings, lists, paragraphs, forms, links, buttons, and so on)
+A site map
+Wireframes showing general layout and content areas for major pages
+
+
+
+import fonts from url remember color and font theory 

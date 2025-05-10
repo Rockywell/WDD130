@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fugaz+One&display=swap');
+
+:root {
+    /* https: //coolors.co/84dcc6-acd7ec-245294-69584f */
+    --primary-color: #245294;
+    --secondary-color: #84DCC6;
+    --accent1-color: #ACD7EC;
+    --accent2-color: #69584F;
+}
+
+* {
+    font-family: "Comic Relief", system-ui;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+header img {
+    height: 83px;
+    width: auto;
+
+    float: left;
+}
+
+nav {
+    padding: 10px;
+    overflow: hidden;
+    /* border-radius: 10px; */
+
+    text-align: center;
+    font-size: larger;
+}
+
+body {
+    background: url("https://www.google.com/imgres?q=rafting&imgurl=https%3A%2F%2Fwww.visitscotland.com%2Fbinaries%2Fcontent%2Fgallery%2Fvisitscotland%2Fcms-images%2F2022%2F08%2F29%2Friver-findhorn-rafting-ace-1.jpg&imgrefurl=https%3A%2F%2Fwww.visitscotland.com%2Fthings-to-do%2Foutdoor-activities%2Fwatersports%2Fwhite-water-rafting&docid=9geHNChV542_6M&tbnid=Texcs45yIvO83M&vet=12ahUKEwipuOKbqJiNAxX9hIkEHajJJKIQM3oFCIIBEAA..i&w=2000&h=1250&hcb=2&ved=2ahUKEwipuOKbqJiNAxX9hIkEHajJJKIQM3oFCIIBEAA") center center no-repeat;
+    background-size: cover;
+    margin: 0;
+    /* background-color: var(--secondary-color); */
+}
+
+
+
+nav a {
+    color: var(--accent1-color);
+    display: inline-block;
+    padding: 20px;
+    cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fugaz One', sans-serif;
+}
+
+p {
+    font-family: "Comic Relief", system-ui;
+}
+
+footer {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    background-color: var(--accent2-color);
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid var(--accent2-color);
+}
