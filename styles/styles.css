@@ -5,6 +5,7 @@
     --bg-tertiary: #484239;
 
     --color-primary: var(--bg-primary);
+    --color-secondary: whitesmoke;
 }
 
 nav {
@@ -12,10 +13,12 @@ nav {
     padding: 10px;
     overflow: hidden;
     border-radius: 10px;
+
+    font-size: larger;
 }
 
 nav a {
-    color: white;
+    color: var(--color-secondary);
     display: block;
     padding: 20px;
 
@@ -43,7 +46,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid hsla(200, 0%, 0%, .7);
+    border: 3px solid var(--bg-primary);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -55,13 +58,14 @@ aside {
     border-radius: 10px;
     padding: 0.5em 1em;
     background-color: var(--bg-secondary);
-    color: inherit;
+    color: var(--color-secondary);
     text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    border: 2px solid var(--color-secondary);
 }
 
 footer {
