@@ -1,5 +1,14 @@
+:root {
+    /* #faf6e9/#556d57 #6d6255 #484239 #262320 #000000 */
+    --bg-primary: #556d57;
+    --bg-secondary: #6d6255;
+    --bg-tertiary: #484239;
+
+    --color-primary: var(--bg-primary);
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--bg-primary);
     padding: 10px;
     overflow: hidden;
     border-radius: 10px;
@@ -15,7 +24,7 @@ nav a {
 
 nav a:hover {
     display: inline-block;
-    filter: invert(0.5);
+    filter: invert(0.3);
 
     cursor: pointer;
 
@@ -45,7 +54,7 @@ aside {
     border: 1px solid rgb(0 0 0 / 0.2);
     border-radius: 10px;
     padding: 0.5em 1em;
-    background-color: whitesmoke;
+    background-color: var(--bg-secondary);
     color: inherit;
     text-align: center;
 }
@@ -57,12 +66,12 @@ aside img {
 
 footer {
     margin-top: 3rem;
-    border-top: 1px solid darkblue;
+    border-top: 3px solid var(--color-primary);
     text-align: center;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color-primary);
 }
 
 p {
