@@ -1,12 +1,28 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+    overflow: hidden;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+
+    cursor: default;
+}
+
+nav a:hover {
+    display: inline-block;
+    filter: invert(0.5);
+
+    cursor: pointer;
+
+    transform: scale(1.2);
+    transform-origin: center;
+
+
+    transition: ease-in 0.15s;
 }
 
 h1 {
