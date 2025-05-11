@@ -30,3 +30,8 @@ Wireframes showing general layout and content areas for major pages
 
 
 import fonts from url remember color and font theory 
+
+/* https://cdn.pixabay.com/photo/2025/04/22/10/10/coast-9549731_1280.png */
+/* https://cdn.pixabay.com/photo/2022/10/20/05/37/mount-haast-7534094_1280.jpg */
+
+    /*https://coolors.co/245294-84dcc6-acd7ec-69584f*/

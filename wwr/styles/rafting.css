@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+
+:root {
+    --primary-rgb: 36, 82, 148;
+    --secondary-rgb: 132, 220, 198;
+    --accent1-rgb: 172, 215, 236;
+    --accent2-rgb: 105, 88, 79;
+
+    --heading-font: "Share Tech", sans-serif;
+    --body-font: "Spectral", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: rgb(var(--accent1-rgb));
+    background-color: rgb(var(--primary-rgb));
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+header {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(var(--secondary-rgb), 0.5);
+}
+
+header nav {
+    width: 100%;
+    text-align: right;
+}
+
+header nav a {
+    color: rgb(var(--accent1-rgb));
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: whitesmoke;
+}
+
+header img {
+    height: 90%;
+    width: auto;
+    margin: 5px;
+    float: left;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    top: 75px;
+    color: whitesmoke;
+    background-color: rgba(var(--primary-rgb), 0.5);
+    text-shadow: 2px 2px 4px black;
+    font-size: large;
+}
+
+.hero article img {
+    float: right;
+    margin: 25px 0;
+    width: 150px;
+    box-shadow: 5px 5px 2px black;
+    border: 3px solid rgb(var(--accent2-rgb));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: whitesmoke;
+    /* color: rgb(var(--primary-rgb)); */
+}
+
+.hero h1 {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+
+    background-color: var(--accent1-color);
+    color: whitesmoke;
+    font-size: 4em;
+}
+
+a {
+    display: inline-block;
+    color: whitesmoke;
+    transition: 0.2s ease-in;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    text-align: center;
+    font-size: larger;
+}
+
+nav a {
+    margin: 0 1.25em;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+    background-color: rgb(var(--accent2-rgb));
+}
+
+footer img {
+    width: 2em;
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
