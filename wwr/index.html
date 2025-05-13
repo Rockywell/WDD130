@@ -5,10 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Raftout Rapids</title>
-    <meta name="description" content="Raftout Rapids">
+    <title>Home - Raftout Rapids</title>
+    <meta name="description" content="Raftout Rapids's home page.">
     <meta name="author" content="Porter Frazier">
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -24,21 +27,59 @@
     </header>
     <!-- <img src="images/america-map.jpg" alt="My Country: America" width="100vw"> -->
 
-    <main>
-        <h1>Raftout Rapids</h1>
-        <h2>Conquer Nature</h2>
+    <main id="home">
+        <div class="hero">
+            <img src="images/home.jpg" alt="Rafting Background">
+            <h1>Conquer Nature</h1>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quos unde soluta, optio, et iure perferendis
-            vitae voluptatem illum voluptatum ad sapiente itaque modi placeat aspernatur. Aliquam quia modi aperiam?
-        </p>
+            <article>
+                <!-- <img src="images/customers.jpg" alt="Satisfied Customers"> -->
+                <p>
+                    Here at Raftout, whether you're bobbing and weaving or just enjoying the scenery, we take rafting
+                    seriously. Our expert guides are committed to providing you with an unforgettable adventure,
+                    combining safety, fun, and a deep love for the river. Whether you're a seasoned pro or a first-time
+                    paddler, we've got the trip for you. Make memories that'll last a
+                    lifetime—because at Raftout, it's not just a ride, it's an experience.
+                </p>
+                <a href="trips.html">
+                    <h2>Book A Memory</h2>
+                </a>
+            </article>
+        </div>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Sign Up To Natures Newsletter</legend>
+
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname">
+
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+        <aside>
+            <img src="images/rafting-4.jpg" alt="">
+            <img src="images/rafting-1.jpg" alt="">
+        </aside>
+        <section>
+            <h2>Our Purpose</h2>
+            <p>Raftout is here to get you on the water and into nature. Whether it's thrills or a relaxing float, we
+                make it easy to find the right trip, get prepared, and enjoy the ride. Our goal is to help everyone
+                experience the fun and freedom of whitewater rafting without the stress of planning.
+            </p>
+
+            <h2>What We Offer</h2>
+            <ul>
+                <li><strong>Family & First-Timer Floats</strong> - Easy, scenic, and perfect for beginners</li>
+                <li><strong>Intermediate Trips</strong> - A mix of splashy rapids and great views</li>
+                <li><strong>Advanced Adventures</strong> - Fast-paced, high-adrenaline runs</li>
+                <li><strong>Sunset & Full-Day Options</strong> - Special trips with extra time on the water</li>
+            </ul>
+        </section>
     </main>
-
-    <aside>
-        <h2>Adventure</h2>
-        <!-- <img src="images/america-map.jpg" alt="My Country: America" width="200"> -->
-        <p>Home of the brave and home of the free.</p>
-    </aside>
 
     <footer>
         <p>®2025 Raftout, Porter Frazier</p>
