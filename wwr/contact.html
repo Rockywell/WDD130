@@ -4,10 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    <meta name="description" content="Raftout Rapids">
+    <title>Contact Us - Raftout Rapids</title>
+
+    <meta name="description" content="Contact Us">
     <meta name="author" content="Porter Frazier">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -21,7 +27,87 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <!-- <div class="hero">
+            <img src="images/rafting-bg.jpg" alt="Rafting Background">
+            <h1>Raftout Rapids</h1>
+
+            <article>
+                <img src="images/customers.jpg" alt="Satisfied Customers">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere reprehenderit repellendus veniam
+                    ipsa quisquam blanditiis, temporibus, eveniet recusandae aspernatur fuga eaque minima veritatis esse
+                    qui, nostrum deserunt odit perspiciatis animi. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Eveniet dolorem rerum, perspiciatis quasi, omnis beatae, molestiae hic ducimus voluptatum
+                    dolor aperiam sunt. Similique accusantium aliquam quisquam earum ab ipsa tempora.
+                </p>
+            </article>
+        </div> -->
+        <section class="employees">
+            <h2>The Raftout Team</h2>
+
+            <figure>
+                <img src="images/employee-1.jpeg" alt="Software Engineer">
+                <figcaption>Saarmad Dio (Engineer)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-2.jpg" alt="Tour Guide">
+                <figcaption>Ben Olsen (Tour Guide)</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-3.jpeg" alt="Support Specialist">
+                <figcaption>Maya Lee (Customer Support)</figcaption>
+            </figure>
+        </section>
+        <section class="contact-us">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname">
+
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <fieldset>
+                        <legend>Why are you contacting us?</legend>
+                        <!-- Why are you contacting us? -->
+                        <!-- <label for="purpose">Why are you contacting us?</label> -->
+                        <label><input type="radio" name="purpose" value="General Inquiry"> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                    </fieldset>
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="4"></textarea>
+                    <label for="subscription"><input type="checkbox" id="subscription" name="subscription"> Please
+                        subscribe me to the monthly newsletter</label>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+            <article>
+                <h1>Raftout Info</h1>
+
+                <h2>Address</h2>
+                <p>1234 Hyrum Park</p>
+
+                <h2>Phone</h2>
+                <p>(800) 555-0199</p>
+
+                <h2>Email</h2>
+                <p>raftout@gmail.com</p>
+
+                <iframe class="map" src="https://www.google.com/maps?q=1234+Hyrum+Park&output=embed" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+        </section>
+    </main>
+
     <footer>
         <p>®2025 Raftout, Porter Frazier</p>
         <nav class="socialmedia">
