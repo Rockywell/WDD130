@@ -163,9 +163,10 @@ section img {
     align-items: center;
 }
 
-.employees h2 {
+.employees h1 {
     text-align: center;
     grid-column: 1 / span 3;
+    font-size: 2.5em;
 }
 
 .employees img {
@@ -213,6 +214,7 @@ nav a {
 }
 
 .socialmedia a {
+    align-self: center;
     text-decoration: none;
 }
 
