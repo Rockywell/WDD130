@@ -84,6 +84,8 @@ header img {
 
 main {
     width: 840px;
+    /* min-width: 840px; */
+    /* margin: 0 200px; */
 }
 
 a {
@@ -259,9 +261,10 @@ th {
     position: relative;
 }
 
-.hero img {
+.hero>img {
     display: block;
     height: auto;
+    min-width: 100%;
     width: 100vw;
     justify-self: center;
 }
@@ -283,7 +286,7 @@ th {
     border: 3px solid rgb(var(--accent2-rgb));
 }
 
-.hero h1 {
+.hero>h1 {
     position: absolute;
     pointer-events: none;
     z-index: 1;
